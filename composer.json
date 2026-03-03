@@ -1,5 +1,5 @@
 {
-    "name": "setono/doctrine-orm-batcher-bundle",
+    "name": "webgriffe/doctrine-orm-batcher-bundle",
     "type": "symfony-bundle",
     "description": "Symfony bundle that integrates the Doctrine ORM batcher library",
     "keywords": [
@@ -53,5 +53,8 @@
         "check-style": "vendor/bin/ecs check --ansi src/ tests/",
         "fix-style": "vendor/bin/ecs check --fix --ansi src/ tests/",
         "test": "vendor/bin/phpunit"
+    },
+    "replace": {
+        "setono/doctrine-orm-batcher-bundle": "*"
     }
 }
